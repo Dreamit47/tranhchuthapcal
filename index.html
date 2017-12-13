@@ -1,0 +1,85 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tranh Chữ Thập-Edit by: DreamIT</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <form action='#' method='POST' class="form-signin">
+        <h2 class="form-signin-heading">TÍNH TIỀN TRANH</h2>
+        <label>Nhập chiều dài</label>
+        <input type="text" id="no1" class="form-control" placeholder="Dài(cm)">
+        <label>Nhập chiều rộng</label>
+        <input type="text" id="no2" class="form-control" placeholder="Rộng(cm)">
+
+        <div class="bia_kinh">
+            <h5>Bìa-Kính</h5>
+            <label>
+                <input type="checkbox" class="game" id="game0" value="Bìa"> Bìa
+
+            <label>
+                <input type="checkbox" class="game" id="game1" value="Kính"> Kính
+            </label>
+        </div>
+
+        <div class="bo">
+            <h5>Bo</h5>
+            <label>
+                <input type="checkbox" class="game" id="game2" value="Bo cây"> Bo cây
+            </label>
+            <label>
+                <input type="checkbox" class="game" id="game3" value="Không bo"> Không bo
+            </label>
+        </div>
+
+        <div class="nep">
+            <label>
+                <input type="checkbox" class="game" id="game4" value="Nẹp"> Nẹp
+            </label>
+            <label>
+                <input type="checkbox" class="game" id="game5" value="đồng hồ"> Đồng hồ
+            </label>
+        </div>
+
+        <div class="khung">
+            <h5>Khung</h5>
+            <label>
+                <input type="checkbox" class="game" id="game6" value="3 cm"> 3cm
+            </label>
+            <label>
+                <input type="checkbox" class="game" id="game7" value="5 cm"> 5cm
+            </label>
+            <label>
+                <input type="checkbox" class="game" id="game8" value="7 cm"> 7cm
+            </label>
+            <label>
+                <input type="checkbox" class="game" id="game9" value="9 cm"> 9cm
+            </label>
+            <label>
+                <input type="checkbox" class="game" id="game10" value="10 cm"> 10cm
+            </label>
+        </div>
+        <input readonly="readonly" type="text" placeholder="Tổng tiền...VNĐ" id="totalcost" class="form-control">
+		<input type="reset" name=""" value="Reset" />
+    </form>
+	
+
+</div> <!-- /container -->
+    <script src="sum.js"></script>
+</body>
+</html>
+
